@@ -4358,98 +4358,98 @@ webpackContext.id = 585;
 /***/ 593:
 /***/ (function(module, exports) {
 
-module.exports = "<div #baAmChart class=\"ba-am-chart {{baAmChartClass || ''}}\"></div>\r\n"
+module.exports = "<div #baAmChart class=\"ba-am-chart {{baAmChartClass || ''}}\"></div>\n"
 
 /***/ }),
 
 /***/ 594:
 /***/ (function(module, exports) {
 
-module.exports = "<div baCardBlur class=\"animated fadeIn card {{cardType}} {{baCardClass || ''}}\" zoom-in>\r\n    <div *ngIf=\"cardTitle\" class=\"card-header clearfix\">\r\n        <h3 class=\"card-title\" translate>{{cardTitle}}</h3>\r\n    </div>\r\n    <div class=\"card-body\">\r\n        <ng-content></ng-content>\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div baCardBlur class=\"animated fadeIn card {{cardType}} {{baCardClass || ''}}\" zoom-in>\n    <div *ngIf=\"cardTitle\" class=\"card-header clearfix\">\n        <h3 class=\"card-title\" translate>{{cardTitle}}</h3>\n    </div>\n    <div class=\"card-body\">\n        <ng-content></ng-content>\n    </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 595:
 /***/ (function(module, exports) {
 
-module.exports = "<div #baChartistChart class=\"ba-chartist-chart {{baChartistChartClass || ''}}\"></div>\r\n"
+module.exports = "<div #baChartistChart class=\"ba-chartist-chart {{baChartistChartClass || ''}}\"></div>\n"
 
 /***/ }),
 
 /***/ 596:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"{{baCheckboxClass}}\">\r\n  <label class=\"checkbox-inline custom-checkbox nowrap\">\r\n    <input type=\"checkbox\" [checked]=state\r\n           (change)=\"onChange($event.target.checked)\"\r\n           [disabled]=\"disabled\" [value]=\"value\">\r\n    <span>{{label}}</span>\r\n  </label>\r\n</div>\r\n"
+module.exports = "<div class=\"{{baCheckboxClass}}\">\n  <label class=\"checkbox-inline custom-checkbox nowrap\">\n    <input type=\"checkbox\" [checked]=state\n           (change)=\"onChange($event.target.checked)\"\n           [disabled]=\"disabled\" [value]=\"value\">\n    <span>{{label}}</span>\n  </label>\n</div>\n"
 
 /***/ }),
 
 /***/ 597:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"content-top clearfix\">\r\n  <h1 class=\"al-title\" translate>{{ activePageTitle }}</h1>\r\n\r\n  <ul class=\"breadcrumb al-breadcrumb\">\r\n    <li class=\"breadcrumb-item\">\r\n      <a routerLink=\"/pages/dashboard\" translate>{{'general.home'}}</a>\r\n    </li>\r\n    <li class=\"breadcrumb-item active\" translate>{{ activePageTitle }}</li>\r\n  </ul>\r\n</div>\r\n"
+module.exports = "<div class=\"content-top clearfix\">\n  <h1 class=\"al-title\" translate>{{ activePageTitle }}</h1>\n\n  <ul class=\"breadcrumb al-breadcrumb\">\n    <li class=\"breadcrumb-item\">\n      <a routerLink=\"/pages/dashboard\" translate>{{'general.home'}}</a>\n    </li>\n    <li class=\"breadcrumb-item active\" translate>{{ activePageTitle }}</li>\n  </ul>\n</div>\n"
 
 /***/ }),
 
 /***/ 598:
 /***/ (function(module, exports) {
 
-module.exports = "<input #fileUpload ngFileSelect type=\"file\" [options]=\"fileUploaderOptions\" (onUpload)=\"_onFileUpload($event)\" (beforeUpload)=\"beforeFileUpload($event)\" hidden=\"true\">\r\n<div class=\"input-group\" [ngClass]=\"{uploading: uploadFileInProgress}\">\r\n    <input #inputText type=\"text\" [value]=\"defaultValue\" class=\"form-control\" readonly>\r\n    <span class=\"input-group-btn\">\r\n      <button class=\"btn btn-success\" type=\"button\" (click)=\"bringFileSelector();\">Browse</button>\r\n  </span>\r\n</div>"
+module.exports = "<input #fileUpload ngFileSelect type=\"file\" [options]=\"fileUploaderOptions\" (onUpload)=\"_onFileUpload($event)\" (beforeUpload)=\"beforeFileUpload($event)\" hidden=\"true\">\n<div class=\"input-group\" [ngClass]=\"{uploading: uploadFileInProgress}\">\n    <input #inputText type=\"text\" [value]=\"defaultValue\" class=\"form-control\" readonly>\n    <span class=\"input-group-btn\">\n      <button class=\"btn btn-success\" type=\"button\" (click)=\"bringFileSelector();\">Browse</button>\n  </span>\n</div>"
 
 /***/ }),
 
 /***/ 599:
 /***/ (function(module, exports) {
 
-module.exports = "<div #baFullCalendar class=\"ba-full-calendar {{baFullCalendarClass || ''}}\"></div>\r\n"
+module.exports = "<div #baFullCalendar class=\"ba-full-calendar {{baFullCalendarClass || ''}}\"></div>\n"
 
 /***/ }),
 
 /***/ 600:
 /***/ (function(module, exports) {
 
-module.exports = "<ul id=\"al-sidebar-list\" class=\"al-sidebar-list\" baSlimScroll [baSlimScrollOptions]=\"{height: menuHeight}\"\r\n    (mouseleave)=\"hoverElemTop=outOfArea\">\r\n  <ba-menu-item\r\n    [menuItem]=\"item\"\r\n    (itemHover)=\"hoverItem($event)\"\r\n    (toggleSubMenu)=\"toggleSubMenu($event)\"\r\n    *ngFor=\"let item of menuItems\"></ba-menu-item>\r\n</ul>\r\n<div class=\"sidebar-hover-elem\" [ngStyle]=\"{top: hoverElemTop + 'px', height: hoverElemHeight + 'px'}\"\r\n     [ngClass]=\"{'show-hover-elem': showHoverElem }\">\r\n</div>\r\n"
+module.exports = "<ul id=\"al-sidebar-list\" class=\"al-sidebar-list\" baSlimScroll [baSlimScrollOptions]=\"{height: menuHeight}\"\n    (mouseleave)=\"hoverElemTop=outOfArea\">\n  <ba-menu-item\n    [menuItem]=\"item\"\n    (itemHover)=\"hoverItem($event)\"\n    (toggleSubMenu)=\"toggleSubMenu($event)\"\n    *ngFor=\"let item of menuItems\"></ba-menu-item>\n</ul>\n<div class=\"sidebar-hover-elem\" [ngStyle]=\"{top: hoverElemTop + 'px', height: hoverElemHeight + 'px'}\"\n     [ngClass]=\"{'show-hover-elem': showHoverElem }\">\n</div>\n"
 
 /***/ }),
 
 /***/ 601:
 /***/ (function(module, exports) {
 
-module.exports = "<li *ngIf=\"!menuItem.hidden\" [title]=\"menuItem.title | translate\" [ngClass]=\"{'al-sidebar-list-item': !child, 'ba-sidebar-sublist-item': child, 'selected': menuItem.selected && !menuItem.expanded, 'with-sub-menu': menuItem.children, 'ba-sidebar-item-expanded': menuItem.expanded}\">\r\n\r\n  <a *ngIf=\"!menuItem.children && !menuItem.url\" (mouseenter)=\"onHoverItem($event, item)\" [routerLink]=\"menuItem.route.paths\" class=\"al-sidebar-list-link\">\r\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\r\n  </a>\r\n\r\n  <a *ngIf=\"!menuItem.children && menuItem.url\" (mouseenter)=\"onHoverItem($event, item)\" [href]=\"menuItem.url\" [target]=\"menuItem.target\" class=\"al-sidebar-list-link\">\r\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\r\n  </a>\r\n\r\n  <a *ngIf=\"menuItem.children\" (mouseenter)=\"onHoverItem($event, item)\" href (click)=\"onToggleSubMenu($event, menuItem)\" class=\"al-sidebar-list-link\">\r\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\r\n    <b class=\"fa fa-angle-down\" [ngClass]=\"{'fa-angle-up': menuItem.expanded}\"></b>\r\n  </a>\r\n\r\n  <ul *ngIf=\"menuItem.children\" class=\"al-sidebar-sublist\" [ngClass]=\"{'slide-right': menuItem.slideRight}\">\r\n    <ba-menu-item [menuItem]=\"subItem\"\r\n                  [child]=\"true\"\r\n                  (itemHover)=\"onHoverItem($event)\"\r\n                  (toggleSubMenu)=\"onToggleSubMenu($event, subItem)\"\r\n                  *ngFor=\"let subItem of menuItem.children\"></ba-menu-item>\r\n  </ul>\r\n\r\n</li>\r\n"
+module.exports = "<li *ngIf=\"!menuItem.hidden\" [title]=\"menuItem.title | translate\" [ngClass]=\"{'al-sidebar-list-item': !child, 'ba-sidebar-sublist-item': child, 'selected': menuItem.selected && !menuItem.expanded, 'with-sub-menu': menuItem.children, 'ba-sidebar-item-expanded': menuItem.expanded}\">\n\n  <a *ngIf=\"!menuItem.children && !menuItem.url\" (mouseenter)=\"onHoverItem($event, item)\" [routerLink]=\"menuItem.route.paths\" class=\"al-sidebar-list-link\">\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\n  </a>\n\n  <a *ngIf=\"!menuItem.children && menuItem.url\" (mouseenter)=\"onHoverItem($event, item)\" [href]=\"menuItem.url\" [target]=\"menuItem.target\" class=\"al-sidebar-list-link\">\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\n  </a>\n\n  <a *ngIf=\"menuItem.children\" (mouseenter)=\"onHoverItem($event, item)\" href (click)=\"onToggleSubMenu($event, menuItem)\" class=\"al-sidebar-list-link\">\n    <i *ngIf=\"menuItem.icon\" class=\"{{ menuItem.icon }}\"></i><span translate>{{ menuItem.title }}</span>\n    <b class=\"fa fa-angle-down\" [ngClass]=\"{'fa-angle-up': menuItem.expanded}\"></b>\n  </a>\n\n  <ul *ngIf=\"menuItem.children\" class=\"al-sidebar-sublist\" [ngClass]=\"{'slide-right': menuItem.slideRight}\">\n    <ba-menu-item [menuItem]=\"subItem\"\n                  [child]=\"true\"\n                  (itemHover)=\"onHoverItem($event)\"\n                  (toggleSubMenu)=\"onToggleSubMenu($event, subItem)\"\n                  *ngFor=\"let subItem of menuItem.children\"></ba-menu-item>\n  </ul>\n\n</li>\n"
 
 /***/ }),
 
 /***/ 602:
 /***/ (function(module, exports) {
 
-module.exports = "<ul class=\"al-msg-center clearfix\">\r\n  <li class=\"dropdown\">\r\n    <a href class=\"dropdown-toggle\" id=\"msg-dd1\" data-toggle=\"dropdown\" aria-expanded=\"false\">\r\n      <i class=\"fa fa-bell-o\"></i><span>{{ notifications.length }}</span>\r\n\r\n      <div class=\"notification-ring\"></div>\r\n    </a>\r\n\r\n    <div class=\"top-dropdown-menu dropdown-menu\" aria-labelledby=\"msg-dd1\">\r\n      <i class=\"dropdown-arr\"></i>\r\n\r\n      <div class=\"header clearfix\">\r\n        <strong>Notifications</strong>\r\n        <a href>Mark All as Read</a>\r\n        <a href>Settings</a>\r\n      </div>\r\n      <div class=\"msg-list\">\r\n        <a *ngFor=\"let msg of notifications\" href class=\"clearfix\">\r\n          <div class=\"img-area\"><img [ngClass]=\"{'photo-msg-item': !msg.image}\"\r\n                                     src=\"{{ ( msg.image ||  (msg.name | baProfilePicture)) }}\"></div>\r\n          <div class=\"msg-area\">\r\n            <div>{{ msg.text }}</div>\r\n            <span>{{ msg.time }}</span>\r\n          </div>\r\n        </a>\r\n      </div>\r\n      <a href>See all notifications</a>\r\n    </div>\r\n  </li>\r\n  <li class=\"dropdown\">\r\n    <a href class=\"msg dropdown-toggle\" id=\"msg-dd2\" data-toggle=\"dropdown\" aria-expanded=\"false\">\r\n      <i class=\"fa fa-envelope-o\"></i><span>{{ messages.length }}</span>\r\n      <div class=\"notification-ring\"></div>\r\n    </a>\r\n    <div class=\"top-dropdown-menu dropdown-menu\" aria-labelledby=\"msg-dd2\">\r\n      <i class=\"dropdown-arr\"></i>\r\n      <div class=\"header clearfix\">\r\n        <strong>Messages</strong>\r\n        <a href>Mark All as Read</a>\r\n        <a href>Settings</a>\r\n      </div>\r\n      <div class=\"msg-list\">\r\n        <a *ngFor=\"let msg of messages\" href class=\"clearfix\">\r\n          <div class=\"img-area\"><img [ngClass]=\"{'photo-msg-item': !msg.image}\"\r\n                                     src=\"{{ ( msg.image ||  (msg.name | baProfilePicture)) }}\"></div>\r\n          <div class=\"msg-area\">\r\n            <div>{{ msg.text }}</div>\r\n            <span>{{ msg.time }}</span>\r\n          </div>\r\n        </a>\r\n      </div>\r\n      <a href>See all messages</a>\r\n    </div>\r\n  </li>\r\n</ul>\r\n"
+module.exports = "<ul class=\"al-msg-center clearfix\">\n  <li class=\"dropdown\">\n    <a href class=\"dropdown-toggle\" id=\"msg-dd1\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n      <i class=\"fa fa-bell-o\"></i><span>{{ notifications.length }}</span>\n\n      <div class=\"notification-ring\"></div>\n    </a>\n\n    <div class=\"top-dropdown-menu dropdown-menu\" aria-labelledby=\"msg-dd1\">\n      <i class=\"dropdown-arr\"></i>\n\n      <div class=\"header clearfix\">\n        <strong>Notifications</strong>\n        <a href>Mark All as Read</a>\n        <a href>Settings</a>\n      </div>\n      <div class=\"msg-list\">\n        <a *ngFor=\"let msg of notifications\" href class=\"clearfix\">\n          <div class=\"img-area\"><img [ngClass]=\"{'photo-msg-item': !msg.image}\"\n                                     src=\"{{ ( msg.image ||  (msg.name | baProfilePicture)) }}\"></div>\n          <div class=\"msg-area\">\n            <div>{{ msg.text }}</div>\n            <span>{{ msg.time }}</span>\n          </div>\n        </a>\n      </div>\n      <a href>See all notifications</a>\n    </div>\n  </li>\n  <li class=\"dropdown\">\n    <a href class=\"msg dropdown-toggle\" id=\"msg-dd2\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n      <i class=\"fa fa-envelope-o\"></i><span>{{ messages.length }}</span>\n      <div class=\"notification-ring\"></div>\n    </a>\n    <div class=\"top-dropdown-menu dropdown-menu\" aria-labelledby=\"msg-dd2\">\n      <i class=\"dropdown-arr\"></i>\n      <div class=\"header clearfix\">\n        <strong>Messages</strong>\n        <a href>Mark All as Read</a>\n        <a href>Settings</a>\n      </div>\n      <div class=\"msg-list\">\n        <a *ngFor=\"let msg of messages\" href class=\"clearfix\">\n          <div class=\"img-area\"><img [ngClass]=\"{'photo-msg-item': !msg.image}\"\n                                     src=\"{{ ( msg.image ||  (msg.name | baProfilePicture)) }}\"></div>\n          <div class=\"msg-area\">\n            <div>{{ msg.text }}</div>\n            <span>{{ msg.time }}</span>\n          </div>\n        </a>\n      </div>\n      <a href>See all messages</a>\n    </div>\n  </li>\n</ul>\n"
 
 /***/ }),
 
 /***/ 603:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"{{baMultiCheckboxClass}} container-content\">\r\n  <ba-checkbox *ngFor=\"let item of state\"\r\n               [(ngModel)]=\"item[propertiesMapping.model]\"\r\n               [baCheckboxClass]=\"getProp(item, 'baCheckboxClass')\"\r\n               [label]=\"getProp(item, 'label')\"\r\n               [disabled]=\"getProp(item, 'disabled')\"\r\n               [value]=\"getProp(item, 'value')\"\r\n               id=\"{{getProp(item, 'id')}}\">\r\n  </ba-checkbox>\r\n</div>\r\n"
+module.exports = "<div class=\"{{baMultiCheckboxClass}} container-content\">\n  <ba-checkbox *ngFor=\"let item of state\"\n               [(ngModel)]=\"item[propertiesMapping.model]\"\n               [baCheckboxClass]=\"getProp(item, 'baCheckboxClass')\"\n               [label]=\"getProp(item, 'label')\"\n               [disabled]=\"getProp(item, 'disabled')\"\n               [value]=\"getProp(item, 'value')\"\n               id=\"{{getProp(item, 'id')}}\">\n  </ba-checkbox>\n</div>\n"
 
 /***/ }),
 
 /***/ 604:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-top clearfix\" baScrollPosition maxHeight=\"50\" (scrollChange)=\"scrolledChanged($event)\"\r\n     [ngClass]=\"{scrolled: isScrolled}\">\r\n  <a routerLink=\"/pages/dashboard\" class=\"al-logo clearfix\"><img width=\"150px\" src=\"assets/img/logo.svg\" /></a>\r\n  <a href (click)=\"toggleMenu()\" class=\"collapse-menu-link ion-navicon\"></a>\r\n\r\n  <div class=\"search\">\r\n    <i class=\"ion-ios-search-strong\" ng-click=\"startSearch()\"></i>\r\n    <input id=\"searchInput\" type=\"text\" placeholder=\"Search for...\">\r\n  </div>\r\n\r\n  <div class=\"user-profile clearfix\">\r\n    <div class=\"dropdown al-user-profile\">\r\n      <a class=\"profile-toggle-link dropdown-toggle\" id=\"user-profile-dd\" data-toggle=\"dropdown\" aria-expanded=\"false\">\r\n        <img src=\"{{ ( 'Nasta' | baProfilePicture ) }}\">\r\n      </a>\r\n      <ul class=\"dropdown-menu top-dropdown-menu profile-dropdown\" aria-labelledby=\"user-profile-dd\">\r\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-user\"></i>Profile</a></li>\r\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-cog\"></i>Settings</a></li>\r\n        <li class=\"dropdown-item\"><a href class=\"signout\"><i class=\"fa fa-power-off\"></i>Sign out</a></li>\r\n      </ul>\r\n    </div>\r\n    <ba-msg-center></ba-msg-center>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"page-top clearfix\" baScrollPosition maxHeight=\"50\" (scrollChange)=\"scrolledChanged($event)\"\n     [ngClass]=\"{scrolled: isScrolled}\">\n  <a routerLink=\"/pages/dashboard\" class=\"al-logo clearfix\"><img width=\"150px\" src=\"assets/img/logo.svg\" /></a>\n  <a href (click)=\"toggleMenu()\" class=\"collapse-menu-link ion-navicon\"></a>\n\n  <div class=\"search\">\n    <i class=\"ion-ios-search-strong\" ng-click=\"startSearch()\"></i>\n    <input id=\"searchInput\" type=\"text\" placeholder=\"Search for...\">\n  </div>\n\n  <div class=\"user-profile clearfix\">\n    <div class=\"dropdown al-user-profile\">\n      <a class=\"profile-toggle-link dropdown-toggle\" id=\"user-profile-dd\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n        <img src=\"{{ ( 'Nasta' | baProfilePicture ) }}\">\n      </a>\n      <ul class=\"dropdown-menu top-dropdown-menu profile-dropdown\" aria-labelledby=\"user-profile-dd\">\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-user\"></i>Profile</a></li>\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-cog\"></i>Settings</a></li>\n        <li class=\"dropdown-item\"><a href class=\"signout\"><i class=\"fa fa-power-off\"></i>Sign out</a></li>\n      </ul>\n    </div>\n    <ba-msg-center></ba-msg-center>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 605:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"picture-group\" [ngClass]=\"{uploading: uploadInProgress}\">\r\n  <div class=\"picture-wrapper\" (click)=\"bringFileSelector();\">\r\n    <img [src]=\"picture\" *ngIf=\"picture\">\r\n    <img [src]=\"defaultPicture\" *ngIf=\"!!!picture && !!defaultPicture\">\r\n\r\n    <div class=\"loading\" *ngIf=\"uploadInProgress\">\r\n      <div class=\"spinner\">\r\n        <div class=\"double-bounce1\"></div>\r\n        <div class=\"double-bounce2\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <i class=\"ion-ios-close-outline\" (click)=\"removePicture();\" *ngIf=\"picture && canDelete\"></i>\r\n  <a href class=\"change-picture\" (click)=\"bringFileSelector();\">Change profile Picture</a>\r\n  <input #fileUpload ngFileSelect [options]=\"uploaderOptions\"\r\n         (onUpload)=\"_onUpload($event)\"\r\n         (beforeUpload)=\"beforeUpload($event)\"\r\n         type=\"file\" hidden=\"true\">\r\n</div>\r\n"
+module.exports = "<div class=\"picture-group\" [ngClass]=\"{uploading: uploadInProgress}\">\n  <div class=\"picture-wrapper\" (click)=\"bringFileSelector();\">\n    <img [src]=\"picture\" *ngIf=\"picture\">\n    <img [src]=\"defaultPicture\" *ngIf=\"!!!picture && !!defaultPicture\">\n\n    <div class=\"loading\" *ngIf=\"uploadInProgress\">\n      <div class=\"spinner\">\n        <div class=\"double-bounce1\"></div>\n        <div class=\"double-bounce2\"></div>\n      </div>\n    </div>\n  </div>\n  <i class=\"ion-ios-close-outline\" (click)=\"removePicture();\" *ngIf=\"picture && canDelete\"></i>\n  <a href class=\"change-picture\" (click)=\"bringFileSelector();\">Change profile Picture</a>\n  <input #fileUpload ngFileSelect [options]=\"uploaderOptions\"\n         (onUpload)=\"_onUpload($event)\"\n         (beforeUpload)=\"beforeUpload($event)\"\n         type=\"file\" hidden=\"true\">\n</div>\n"
 
 /***/ }),
 
 /***/ 606:
 /***/ (function(module, exports) {
 
-module.exports = "<aside class=\"al-sidebar\" sidebarResize>\r\n  <ba-menu [menuHeight]=\"menuHeight\"\r\n           [sidebarCollapsed]=\"isMenuCollapsed\"\r\n           (expandMenu)=\"menuExpand()\"></ba-menu>\r\n</aside>\r\n"
+module.exports = "<aside class=\"al-sidebar\" sidebarResize>\n  <ba-menu [menuHeight]=\"menuHeight\"\n           [sidebarCollapsed]=\"isMenuCollapsed\"\n           (expandMenu)=\"menuExpand()\"></ba-menu>\n</aside>\n"
 
 /***/ }),
 

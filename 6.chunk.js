@@ -1147,7 +1147,7 @@ exports.CKGroupDirective = ckgroup_directive_1.CKGroupDirective;
 /***/ 1197:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\r\n  <div class=\"col-md-12\">\r\n    <ba-card cardTitle=\"ckeditor\" baCardClass=\"with-scroll\">\r\n      <ckeditor [(ngModel)]=\"ckeditorContent\" [config]=\"config\"></ckeditor>\r\n    </ba-card>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <ba-card cardTitle=\"ckeditor\" baCardClass=\"with-scroll\">\n      <ckeditor [(ngModel)]=\"ckeditorContent\" [config]=\"config\"></ckeditor>\n    </ba-card>\n  </div>\n</div>\n"
 
 /***/ }),
 

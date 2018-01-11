@@ -9554,28 +9554,28 @@ L.Map.include({
 /***/ 1212:
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Map with bubbles\">\r\n  <ba-am-chart baAmChartClass=\"bubble-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\r\n</ba-card>\r\n"
+module.exports = "<ba-card cardTitle=\"Map with bubbles\">\n  <ba-am-chart baAmChartClass=\"bubble-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\n</ba-card>\n"
 
 /***/ }),
 
 /***/ 1213:
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Google Maps\">\r\n  <div class=\"google-maps\"></div>\r\n</ba-card>\r\n"
+module.exports = "<ba-card cardTitle=\"Google Maps\">\n  <div class=\"google-maps\"></div>\n</ba-card>\n"
 
 /***/ }),
 
 /***/ 1214:
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Leaflet Maps\">\r\n  <div class=\"leaflet-maps\"></div>\r\n</ba-card>\r\n"
+module.exports = "<ba-card cardTitle=\"Leaflet Maps\">\n  <div class=\"leaflet-maps\"></div>\n</ba-card>\n"
 
 /***/ }),
 
 /***/ 1215:
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Line Maps\">\r\n  <ba-am-chart id=\"map-lines\" baAmChartClass=\"line-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\r\n</ba-card>\r\n\r\n"
+module.exports = "<ba-card cardTitle=\"Line Maps\">\n  <ba-am-chart id=\"map-lines\" baAmChartClass=\"line-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\n</ba-card>\n\n"
 
 /***/ }),
 

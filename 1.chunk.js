@@ -16463,7 +16463,7 @@ exports.TreeModule = TreeModule;
 /* 1187 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-md-6\">\r\n  <ba-card cardTitle=\"tree_view.title\">\r\n    <tree id=\"tree-view\" [tree]=\"tree\"></tree>\r\n  </ba-card>\r\n</div>\r\n"
+module.exports = "<div class=\"col-md-6\">\n  <ba-card cardTitle=\"tree_view.title\">\n    <tree id=\"tree-view\" [tree]=\"tree\"></tree>\n  </ba-card>\n</div>\n"
 
 /***/ })
 ]));
